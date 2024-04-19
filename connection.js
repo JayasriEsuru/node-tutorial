@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const { list } = require("./server2");
-const { item } = require("./server1");
+const { item } = require("./Item/itemController");
 var mysql = require("mysql");
 var con = mysql.createConnection({
   host: "localhost",
